@@ -108,11 +108,11 @@ html_context['current_language'] = current_language
  
 
 # POPULATE LINKS TO OTHER LANGUAGES
-html_context['languages'] = [ ('tr', '/' +REPO_NAME+ '/tr/')]
+html_context['languages'] = [ ('tr', '/' +REPO_NAME+ '/tr/main/')]
  
 languages = [lang.name for lang in os.scandir('locales') if lang.is_dir()]
 for lang in languages:
-   html_context['languages'].append( (lang, '/' +REPO_NAME+ '/' +lang+ '/') )
+   html_context['languages'].append( (lang, '/' +REPO_NAME+ '/' +lang+ '/main/') )
    
    
    
