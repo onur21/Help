@@ -1,0 +1,499 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, MagNET
+# This file is distributed under the same license as the helpPage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: helpPage \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-08 08:39+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../uretim.rst:2
+msgid "Üretim İzleme"
+msgstr ""
+
+#: ../../uretim.rst:4
+msgid ""
+"Fabrikanızda yapılan üretimin detaylı ve canlı bir şekilde "
+"izlenebilirliğini sağlayan analiz ekranıdır. Bu ekrandan;"
+msgstr ""
+
+#: ../../uretim.rst:7
+msgid "tarih bazlı veya vardiya bazlı olarak makinelerinizin çalışma durumuna,"
+msgstr ""
+
+#: ../../uretim.rst:8
+msgid "vardiya, operatör ve ürün bazlı olarak toplam üretim miktarlarına,"
+msgstr ""
+
+#: ../../uretim.rst:9
+msgid "çalışılan iş emirlerine,"
+msgstr ""
+
+#: ../../uretim.rst:10
+msgid "üretim performans değerlendirmesine,"
+msgstr ""
+
+#: ../../uretim.rst:11
+msgid "makinelere ait bilgilere,"
+msgstr ""
+
+#: ../../uretim.rst:12
+msgid "makinelerin duruş nedenlerine ve sürelerine,"
+msgstr ""
+
+#: ../../uretim.rst:13
+msgid "makinenin on/off hareketine"
+msgstr ""
+
+#: ../../uretim.rst:15
+msgid "özet görünüm veya detay görünüm şeklinde ulaşabilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:23
+msgid "Resim1: Üretim İzleme Ekranı Özet Görünüm"
+msgstr ""
+
+#: ../../uretim.rst:25 ../../uretim.rst:34
+msgid "Ana Menü"
+msgstr ""
+
+#: ../../uretim.rst:25 ../../uretim.rst:93
+msgid "Vardiyalar"
+msgstr ""
+
+#: ../../uretim.rst:25 ../../uretim.rst:143
+msgid "Şifre Değiştir"
+msgstr ""
+
+#: ../../uretim.rst:26 ../../uretim.rst:39
+msgid "Lokasyon Ağacı"
+msgstr ""
+
+#: ../../uretim.rst:26
+msgid "Genişlet – Daralt"
+msgstr ""
+
+#: ../../uretim.rst:26 ../../uretim.rst:163
+msgid "Çıkış"
+msgstr ""
+
+#: ../../uretim.rst:27 ../../uretim.rst:67
+msgid "Detay Görünüm"
+msgstr ""
+
+#: ../../uretim.rst:27 ../../uretim.rst:106
+msgid "Bildirimler"
+msgstr ""
+
+#: ../../uretim.rst:27 ../../uretim.rst:169
+msgid "Yardım"
+msgstr ""
+
+#: ../../uretim.rst:28 ../../uretim.rst:76
+msgid "Filtrele"
+msgstr ""
+
+#: ../../uretim.rst:28 ../../uretim.rst:124
+msgid "Hızlı Destek"
+msgstr ""
+
+#: ../../uretim.rst:28 ../../uretim.rst:174
+msgid "Çalışma Durumu"
+msgstr ""
+
+#: ../../uretim.rst:29 ../../uretim.rst:82
+msgid "Tarih Alanı"
+msgstr ""
+
+#: ../../uretim.rst:29
+msgid "Şirket Adı – Kullanıcı Adı"
+msgstr ""
+
+#: ../../uretim.rst:29 ../../uretim.rst:198
+msgid "Haftalık Çalışma Durumu"
+msgstr ""
+
+#: ../../uretim.rst:30
+msgid "Önceki Gün – Sonraki Gün"
+msgstr ""
+
+#: ../../uretim.rst:30 ../../uretim.rst:137
+msgid "Dil Seçeneği"
+msgstr ""
+
+#: ../../uretim.rst:36
+msgid "Firmanızda tanımlı olan ekranların menü listesidir."
+msgstr ""
+
+#: ../../uretim.rst:41
+msgid ""
+"Firmanızda tanımlı olan makinelerin listesini ve fabrika yerleşim planını"
+" göstermektedir. Makine listesinden seçim yaparak tek bir makineye, "
+"hatlara ya da tamamına ait verilere ulaşabilir, işlemlerinize o şekilde "
+"devam edebilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:57
+msgid ""
+"Ayrıca lokasyon ağacından canlı olarak makinelerin çalışma durumunu "
+"görebilirsiniz. Alt kısımda o duruma ait o anda kaç adet makine "
+"bulunduğunun bilgisi canlı bir şekilde kullanıcıya gösterilmektedir. "
+"Makine adının yanındaki ikonun (|location|) hangi duruma karşılık "
+"geldiğini info simgesine (|icon|) tıklayarak öğrenebilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:62
+msgid ""
+"Lokasyon ağacında düzenleme yapmak için düzenle simgesine (|settings|) "
+"tıklayarak Konfigürasyonlar / İş İstasyonları / Lokasyonlar menüsüne "
+"yönlendirileceksiniz. Düzenleme bilgileri için (Bölüm 8.1.3) Lokasyonlar"
+"  bölümüne bakabilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:69
+msgid ""
+"Makine seçimine ve tarih kriterlerine göre ekranların detay sayfalarını "
+"görüntülemenizi sağlayacaktır."
+msgstr ""
+
+#: ../../uretim.rst:72
+msgid ""
+"Detay butonunu kullanarak, tarih aralığı seçerek, vardiya seçimi yaparak "
+"ya da lokasyon ağacından herhangi bir alanı seçerek detay ekranına "
+"ulaşabilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:78
+msgid ""
+"Günlük, haftalık ve aylık olacak şekilde zaman kısıtı vererek listeleme "
+"işlemini gerçekleştirebilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:84
+msgid ""
+"Tarih aralığı girerek listeleme işleminize tarih kısıtı "
+"uygulayabilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:87
+msgid "Önceki Gün - Sonraki Gün"
+msgstr ""
+
+#: ../../uretim.rst:89
+msgid ""
+"Butonlarını kullanarak kısa yoldan tarihler arasında geçiş yaparak "
+"listeleme işlemini gerçekleştirebilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:95
+msgid ""
+"Tanımlamış olduğunuz vardiyaların arasından seçim yaparak listeleme "
+"işleminizi vardiya bazlı olacak şekilde gerçekleştirebilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:99
+msgid "Genişlet - Daralt"
+msgstr ""
+
+#: ../../uretim.rst:101
+msgid ""
+"Butonunu kullanarak ana menüyü ve lokasyon ağacını ekrandan kaldırabilir,"
+" verilerinizi ve grafiklerinizi daha geniş olarak listeleyebilirsiniz. Ya"
+" da ana menüyü ve lokasyon ağacını ekrana dahil edebilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:112
+msgid "Şekil 1"
+msgstr ""
+
+#: ../../uretim.rst:113
+msgid ""
+"En son oluşan hatalı kaynaklar listelenmektedir. Hatanın oluşma sebebine "
+"dair kısa bir açıklama ve kaç gün önce meydana geldiğinin bilgileri "
+"bulunmaktadır (Şekil 1)."
+msgstr ""
+
+#: ../../uretim.rst:116
+msgid ""
+"Tümünü Göster dediğinizde Alarmlar menüsüne yönlendirileceksiniz. Oluşan "
+"tüm alarm bilgileri için (Bölüm 5) Alarmlar bölümüne bakabilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:119
+msgid ""
+"Bildirimlerden birisinin üzerine tıkladığınızda ise Kaynak Operasyonları "
+"/ Kaynak İzleme / Kaynak Detayı ekranı açılacaktır. O kaynağın detay "
+"bilgilerini görebilmeniz için (Bölüm 3.1.1) Kaynak Detayı bölümüne "
+"bakabilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:126
+msgid ""
+"Butonunu kullanarak sistemle ilgili herhangi bir probleminiz veya bir "
+"sorunuz olduğu takdirde ``magnet@magmaweld.com`` adresine mail atabilir, "
+"MagNET destek ekibimizle iletişime geçebilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:131
+msgid "Şirket Adı - Kullanıcı Adı"
+msgstr ""
+
+#: ../../uretim.rst:133
+msgid ""
+"Sisteme giriş yapan kullanıcı bilgisi ve giriş yapılan firmanın bilgisi "
+"ana ekranda kullanıcıya gösterilmektedir."
+msgstr ""
+
+#: ../../uretim.rst:139
+msgid ""
+"Butonuna tıkladığınızda programın desteklediği dillerin listesi "
+"açılacaktır. Programı kullanmak istediğiniz dili buradan "
+"belirleyebilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:154
+msgid ""
+"Aşağı ok simgesine (|ok|) basılarak açılan pencereden şifre değiştir "
+"seçilmelidir. Sisteme giriş yapan kullanıcı, sisteme giriş yaparken "
+"kullandığı eski şifresini, oluşturmak istediği yeni şifreyi ve doğrulamak"
+" için tekrardan belirlediği yeni şifreyi girip kaydet butonuna (|save|) "
+"tıkladığında; eski şifresi uyumluysa ve girdiği yeni şifreler uyuşuyorsa "
+"kullanıcının şifresi başarılı bir şekilde değişmiş olacaktır. Kullanıcı "
+"eski şifresini yanlış girdiyse ``Girilen eksi şifre hatalı!`` uyarısıyla,"
+" girdiği yeni şifreler uyuşmuyorsa ``Girilen yeni şifreler uyuşmadı!`` "
+"uyarısıyla karşılaşacaktır."
+msgstr ""
+
+#: ../../uretim.rst:165
+msgid ""
+"Aşağı ok simgesine (|ok|) basılarak açılan pencereden çıkış seçilmelidir."
+" Böylece sistemden başarılı bir şekilde çıkış yapmış olursunuz"
+msgstr ""
+
+#: ../../uretim.rst:171
+msgid "Programın kullanım kılavuzuna buradan ulaşabilirsiniz."
+msgstr ""
+
+#: ../../uretim.rst:181
+msgid "Şekil 2"
+msgstr ""
+
+#: ../../uretim.rst:182
+msgid ""
+"Günlük olarak veya tarih aralığı girilerek belirtilen sürede, seçilen "
+"makinelerin;"
+msgstr ""
+
+#: ../../uretim.rst:184
+msgid "net çalışılan süre = net çalışılan süre / mevcut çalışma süresi,"
+msgstr ""
+
+#: ../../uretim.rst:185
+msgid "planlı duruş = planlı duruş / mevcut çalışma süresi,"
+msgstr ""
+
+#: ../../uretim.rst:186
+msgid ""
+"plansız duruş = (detaylı plansız duruş + operasyonel duruşlar) / mevcut "
+"çalışma süresi yüzdelik dilim grafiği şeklinde gösterimi ve,"
+msgstr ""
+
+#: ../../uretim.rst:187
+msgid ""
+"seçilen makinelere ait Üretim Planlama / Haftalık Çalışma Planı (Bölüm "
+"2.3) menüsünden tanımlanmış olan toplam planlanan çalışma süresi,"
+msgstr ""
+
+#: ../../uretim.rst:188
+msgid ""
+"günün çalışma saati başlangıcından bu zamana kadar geçen süre olan mevcut"
+" çalışma süresi,"
+msgstr ""
+
+#: ../../uretim.rst:189
+msgid ""
+"Firma Bilgileri / Vardiyalar (Bölüm 9.1) menüsünden tanımlanan mola "
+"süresine denk gelen planlı duruş süresi,"
+msgstr ""
+
+#: ../../uretim.rst:190
+msgid "plansız şekilde oluşan fakat nedeni belirtilenlerin süresi ve"
+msgstr ""
+
+#: ../../uretim.rst:191
+msgid ""
+"neden girilmeyen tüm duruşların süresi dakika cinsinden kullanıcıya "
+"gösterilmektedir (Şekil 2)."
+msgstr ""
+
+#: ../../uretim.rst:193
+msgid ""
+"Grafikte bulunmasını istemediğiniz değer varsa o parametrenin üzerine "
+"tıklamanız yeterlidir. Bu şekilde o parametre pasif hale gelecek ve "
+"yüzdelik dilim grafiği aktif parametrelere göre hesaplanacaktır."
+msgstr ""
+
+#: ../../uretim.rst:209
+msgid "Şekil 3"
+msgstr ""
+
+#: ../../uretim.rst:210
+msgid "Seçtiğiniz hafta boyunca seçilen makinelerin;"
+msgstr ""
+
+#: ../../uretim.rst:212
+msgid "net çalışma süresinin,"
+msgstr ""
+
+#: ../../uretim.rst:213
+msgid "planlı şekilde oluşan duruş süresinin ve"
+msgstr ""
+
+#: ../../uretim.rst:214
+msgid ""
+"plansız şekilde meydana gelen tüm duruşların süresinin grafiksel olarak "
+"detaylı gösterimi yer almaktadır (Şekil 3)."
+msgstr ""
+
+#: ../../uretim.rst:216
+msgid ""
+"Grafikte, detaylı görmek istediğiniz alanı seçerseniz grafik o alana "
+"yoğunlaşacak ve o alandaki değerler kullanıcıya gösterilecektir. Grafiğin"
+" üzerinde bulunan tümünü göster butonuna (|icon|) tıkladığınızda grafik "
+"ilk haline geri dönecektir. Grafikte bulunmasını istemediğiniz değer "
+"varsa o parametrenin üzerine tıklamanız yeterlidir. Bu şekilde o "
+"parametre pasif hale gelecek ve grafik aktif parametrelere göre "
+"hesaplanacaktır."
+msgstr ""
+
+#: ../../uretim.rst:226
+msgid "Resim 2: Üretim İzleme Ekranı Özet Görünüm"
+msgstr ""
+
+#: ../../uretim.rst:227 ../../uretim.rst:231
+msgid "OEE"
+msgstr ""
+
+#: ../../uretim.rst:228 ../../uretim.rst:272
+msgid "Duruş Süreleri"
+msgstr ""
+
+#: ../../uretim.rst:237
+msgid "Şekil 4"
+msgstr ""
+
+#: ../../uretim.rst:238
+msgid ""
+"Günlük olarak veya tarih aralığı girilerek belirtilen sürede, seçilen "
+"makinelerine ait;"
+msgstr ""
+
+#: ../../uretim.rst:240
+msgid "kullanılabilirlik,"
+msgstr ""
+
+#: ../../uretim.rst:241
+msgid "performans ve"
+msgstr ""
+
+#: ../../uretim.rst:242
+msgid "kalite"
+msgstr ""
+
+#: ../../uretim.rst:244
+msgid ""
+"değerleri kullanılarak üretim – performans değerlendirilmesi "
+"yapılmaktadır (Şekil 4). OEE, makinelerinizin ne kadar iyi ve etkin "
+"kullanıldığını gösteren bir performans göstergesidir ve makine "
+"kapasitelerinizin, gerçekte ne kadarını kullandığınızı göstermektedir. "
+"Kullanılabilirlik, planlanan sürenin yüzde kaçına uyulduğunu gösteren "
+"değerdir. (Bölüm 1.16) Çalışma Durumu alanında hesaplanan net çalışılan "
+"süre ve Üretim Planlama / Haftalık Çalışma Planı (Bölüm 2.3) menüsünden "
+"belirlenen planlanan çalışma süresi değerleri kullanılarak "
+"hesaplanmıştır."
+msgstr ""
+
+#: ../../uretim.rst:252
+msgid "Kullanılabilirlik = Toplam Çalışılan Süre / Planlanan Çalışma Süresi"
+msgstr ""
+
+#: ../../uretim.rst:254
+msgid "Performans, üretim hızlarına uygunluğunu gösteren değerdir."
+msgstr ""
+
+#: ../../uretim.rst:256
+msgid ""
+"Bölüm (8.1.1) Konfigürasyonlar / İş İstasyonları / Düzenle menüsünden "
+"makineye tanımlanan ürünlere ait belirlenen üretim hızı değerleri "
+"kullanılarak hesaplanmıştır."
+msgstr ""
+
+#: ../../uretim.rst:259
+msgid ""
+"NOT : Eğer ki üretim hızları alanından herhangi bir ürün seçilmediyse "
+"veya ürüne göre bir hız girilmediyse makineye ait teorik çalışma hızı baz"
+" alınarak OEE hesaplamaları yapılmaktadır."
+msgstr ""
+
+#: ../../uretim.rst:262
+msgid ""
+"Performans = Toplam Üretim Miktarı / (Maksimum Üretim Hızı * Çalışılan "
+"Net Süre)"
+msgstr ""
+
+#: ../../uretim.rst:264
+msgid ""
+"Kalite, ürünün oransal olarak ne kadarının sağlam olduğunu gösteren "
+"değerdir."
+msgstr ""
+
+#: ../../uretim.rst:266
+msgid "Kalite = Firesiz Ürün Miktarı / Toplam Üretim Miktarı."
+msgstr ""
+
+#: ../../uretim.rst:268
+msgid "OEE = Kullanılabilirlik * Performans * Kalite"
+msgstr ""
+
+#: ../../uretim.rst:275
+msgid "Özet Görünüm"
+msgstr ""
+
+#: ../../uretim.rst:278
+msgid "Çalışma Durumu(Vardiya)"
+msgstr ""
+
+#: ../../uretim.rst:281
+msgid "Toplam Üretim Miktarı(Vardiya)"
+msgstr ""
+
+#: ../../uretim.rst:284
+msgid "Toplam Üretim Miktarı(Operatör)"
+msgstr ""
+
+#: ../../uretim.rst:287
+msgid "Toplam Üretim Miktarı(Ürün)"
+msgstr ""
+
+#: ../../uretim.rst:290
+msgid "İş Emirleri"
+msgstr ""
+
+#: ../../uretim.rst:293
+msgid "İş İstasyonları"
+msgstr ""
+
+#: ../../uretim.rst:296
+msgid "İş İstasyonu Hareketleri"
+msgstr ""
+

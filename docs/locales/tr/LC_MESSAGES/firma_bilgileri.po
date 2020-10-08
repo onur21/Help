@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, MagNET
+# This file is distributed under the same license as the helpPage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: helpPage \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-08 08:39+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../firma_bilgileri.rst:2
+msgid "Firma Bilgileri"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:5
+msgid "Vardiyalar"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:8
+msgid "Ürünler"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:11
+msgid "Yeni Ürün"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:14 ../../firma_bilgileri.rst:29
+#: ../../firma_bilgileri.rst:44
+msgid "Düzenle"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:17 ../../firma_bilgileri.rst:32
+#: ../../firma_bilgileri.rst:47
+msgid "Sil"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:20
+msgid "Ürün Grupları"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:23
+msgid "Operatörler"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:26
+msgid "Yeni Operatör"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:35
+msgid "Duruş Kodları"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:38
+msgid "Yeni Duruş Ekle"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:41
+msgid "Duruş Ekle"
+msgstr ""
+
+#: ../../firma_bilgileri.rst:50
+msgid "Kullanıcılar"
+msgstr ""
+
