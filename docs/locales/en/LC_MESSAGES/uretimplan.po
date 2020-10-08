@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, MagNET
+# This file is distributed under the same license as the helpPage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: helpPage \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-06 09:36+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../uretimplan.rst:2
+msgid "Üretim Planlama"
+msgstr "Production Planning"
+
+#: ../../uretimplan.rst:5
+msgid "Projeler"
+msgstr "Projects"
+
+#: ../../uretimplan.rst:7
+msgid "Firmaya tanımlanmış olan projelerin listelendiği ekrandır. Bu ekrandan;"
+msgstr ""
+
+#: ../../uretimplan.rst:9
+msgid "proje numarasına ve"
+msgstr ""
+
+#: ../../uretimplan.rst:10
+msgid "projenin açıklamasına"
+msgstr ""
+
+#: ../../uretimplan.rst:12
+msgid "ulaşabilirsiniz."
+msgstr ""
+
+#: ../../uretimplan.rst:14
+msgid ""
+"MagNET, ERP ile senkronize çalışır durumda ise projeler ERP’den "
+"aktarılmaktadır. Operatör MagNET panelinden iş emri seçimi yaptığında o "
+"iş emrinin bağlı olduğu proje bu ekrana otomatik olarak aktarılmaktadır."
+msgstr ""
+
+#: ../../uretimplan.rst:22
+msgid "Resim 8: Projeler Ekranı"
+msgstr ""
+
+#: ../../uretimplan.rst:24
+msgid "Ara"
+msgstr "Search"
+
+#: ../../uretimplan.rst:26
+msgid ""
+"Listelenmiş olan veriler arasından anahtar kelimeler girerek arama "
+"yapabilir, sonuçları filtreleyebilirsiniz."
+msgstr ""
+
+#: ../../uretimplan.rst:30
+msgid "Sayfalandırma"
+msgstr "Pagination"
+
+#: ../../uretimplan.rst:32
+msgid ""
+"Sayıca çok olan veriler tablolarda ekran düzenini korumak ve veri "
+"karmaşasını önlemek amacıyla, sayfalandırılmış bir şekilde kullanıcıya "
+"gösterilmektedir. Bu butonu kullanarak sayfalandırma yapısını kaldırıp "
+"verileri alt alta listeleyebilirsiniz. Ya da kaldırılmış sayfalandırma "
+"yapısını aktif hale getirebilirsiniz."
+msgstr ""
+
+#: ../../uretimplan.rst:38
+msgid "Sütunlar"
+msgstr "Columns"
+
+#: ../../uretimplan.rst:40
+msgid ""
+"Veriler, tablolarda sütunlar halinde listelenmektedir. Buradan "
+"görünmesini istemediğiniz sütunların işaretini kaldırarak gizleyebilir ya"
+" da istediğiniz sütunları tekrar işaretleyerek ekranda aktif hale "
+"getirebilirsiniz"
+msgstr ""
+
+#: ../../uretimplan.rst:45
+msgid "Excel"
+msgstr "Excel"
+
+#: ../../uretimplan.rst:48
+msgid "Yeni Proje"
+msgstr "New Project"
+
+#: ../../uretimplan.rst:51
+msgid "Sil"
+msgstr "Delete"
+
+#: ../../uretimplan.rst:54
+msgid "Düzenle"
+msgstr "Edit"
+
+#: ../../uretimplan.rst:57
+msgid "İş Emirleri"
+msgstr "Production Orders"
+
+#: ../../uretimplan.rst:60
+msgid "Üretim Sayılarını Düzenle"
+msgstr "Edit Production Orders"
+
+#: ../../uretimplan.rst:63
+msgid "Haftalık Çalışma Planı"
+msgstr "Weekly Plan"
+
+#: ../../uretimplan.rst:66
+msgid "Tarih"
+msgstr "Date"
+
+#: ../../uretimplan.rst:69
+msgid "Kopyala"
+msgstr "Copy"
+
+#: ../../uretimplan.rst:72
+msgid "Sıfırla"
+msgstr "Reset"
+
+#: ../../uretimplan.rst:75
+msgid "Sadece Bu Hafta Kullan"
+msgstr "Plan Only This Week"
+

@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, MagNET
+# This file is distributed under the same license as the helpPage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: helpPage \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-06 09:36+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../kaynak_operasyon.rst:2
+msgid "Kaynak Operasyonları"
+msgstr "Welding Operations"
+
+#: ../../kaynak_operasyon.rst:5
+msgid "Kaynak İzleme"
+msgstr "Weld Monitoring"
+
+#: ../../kaynak_operasyon.rst:8
+msgid "Kaynak Detayı"
+msgstr "Welding Detail"
+
+#: ../../kaynak_operasyon.rst:11
+msgid "Detaylar"
+msgstr "Details"
+
+#: ../../kaynak_operasyon.rst:14
+msgid "WPS"
+msgstr "WPS"
+
+#: ../../kaynak_operasyon.rst:17
+msgid "Operasyonlar"
+msgstr "Operations"
+
+#: ../../kaynak_operasyon.rst:20
+msgid "Kaynak Özeti"
+msgstr "Welding Summary"
+
+#: ../../kaynak_operasyon.rst:23
+msgid "Arc On Time"
+msgstr "Arc On Time"
+
+#: ../../kaynak_operasyon.rst:26
+msgid "OEE"
+msgstr "OEE"
+
+#: ../../kaynak_operasyon.rst:29
+msgid "Kaynak Dağılımı (İş İstasyonu)"
+msgstr "Welding Allocation (Workstation)"
+
+#: ../../kaynak_operasyon.rst:32
+msgid "Kaynak Dağılımı (Operatör)"
+msgstr "Welding Allocation (Operator)"
+
+#: ../../kaynak_operasyon.rst:35
+msgid "Kaynak Dağılımı (Ürün)"
+msgstr "Welding Allocation (Product)"
+
+#: ../../kaynak_operasyon.rst:38
+msgid "Kaynak Tipleri"
+msgstr "Welding Types"
+
+#: ../../kaynak_operasyon.rst:41
+msgid "Duruş Süreleri"
+msgstr "Downtimes"
+
+#: ../../kaynak_operasyon.rst:44
+msgid "Alarmlar"
+msgstr "Alarms"
+
+#: ../../kaynak_operasyon.rst:47
+msgid "Arc On Time (Vardiya)"
+msgstr "Arc On Time (Shift)"
+
+#: ../../kaynak_operasyon.rst:50
+msgid "Kaynak Dağılımı (Vardiya)"
+msgstr "Welding Allocation (Shift)"
+
+#: ../../kaynak_operasyon.rst:53
+msgid "Kaynak Makinesi Hareketleri"
+msgstr "Welding Machine"
+
+#: ../../kaynak_operasyon.rst:56
+msgid "Kaynak Geçmişi"
+msgstr "Welding History"
+
