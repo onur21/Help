@@ -1,0 +1,332 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="tr" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="tr" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>3. Kaynak Operasyonları &mdash; helpPage 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="4. Kaynak Yönetimi" href="kaynak_yonetim.html" />
+    <link rel="prev" title="2. Üretim Planlama" href="uretimplan.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="uretim.html">1. Üretim İzleme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="uretimplan.html">2. Üretim Planlama</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. Kaynak Operasyonları</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#kaynak-izleme">3.1. Kaynak İzleme</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#kaynak-detayi">3.1.1. Kaynak Detayı</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#detaylar">3.1.2. Detaylar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wps">3.1.3. WPS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#operasyonlar">3.2. Operasyonlar</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#kaynak-ozeti">3.2.1. Kaynak Özeti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#arc-on-time">3.2.2. Arc On Time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#oee">3.2.3. OEE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kaynak-dagilimi-is-istasyonu">3.2.4. Kaynak Dağılımı (İş İstasyonu)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kaynak-dagilimi-operator">3.2.5. Kaynak Dağılımı (Operatör)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kaynak-dagilimi-urun">3.2.6. Kaynak Dağılımı (Ürün)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kaynak-tipleri">3.2.7. Kaynak Tipleri</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#durus-sureleri">3.2.8. Duruş Süreleri</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#alarmlar">3.2.9. Alarmlar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#arc-on-time-vardiya">3.2.10. Arc On Time (Vardiya)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kaynak-dagilimi-vardiya">3.2.11. Kaynak Dağılımı (Vardiya)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kaynak-makinesi-hareketleri">3.2.12. Kaynak Makinesi Hareketleri</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#kaynak-gecmisi">3.3. Kaynak Geçmişi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="kaynak_yonetim.html">4. Kaynak Yönetimi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alarmlar.html">5. Alarmlar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="raporlar.html">6. Raporlar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tuketim_malzeme.html">7. Tüketim Malzemeleri</a></li>
+<li class="toctree-l1"><a class="reference internal" href="konfigurasyonlar.html">8. Konfigurasyonlar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="firma_bilgileri.html">9. Firma Bilgileri</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">helpPage</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>3. Kaynak Operasyonları</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/kaynak_operasyon.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kaynak-operasyonlari">
+<h1>3. Kaynak Operasyonları<a class="headerlink" href="#kaynak-operasyonlari" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="kaynak-izleme">
+<h2>3.1. Kaynak İzleme<a class="headerlink" href="#kaynak-izleme" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="kaynak-detayi">
+<h3>3.1.1. Kaynak Detayı<a class="headerlink" href="#kaynak-detayi" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="detaylar">
+<h3>3.1.2. Detaylar<a class="headerlink" href="#detaylar" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="wps">
+<h3>3.1.3. WPS<a class="headerlink" href="#wps" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="operasyonlar">
+<h2>3.2. Operasyonlar<a class="headerlink" href="#operasyonlar" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="kaynak-ozeti">
+<h3>3.2.1. Kaynak Özeti<a class="headerlink" href="#kaynak-ozeti" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="arc-on-time">
+<h3>3.2.2. Arc On Time<a class="headerlink" href="#arc-on-time" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="oee">
+<h3>3.2.3. OEE<a class="headerlink" href="#oee" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="kaynak-dagilimi-is-istasyonu">
+<h3>3.2.4. Kaynak Dağılımı (İş İstasyonu)<a class="headerlink" href="#kaynak-dagilimi-is-istasyonu" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="kaynak-dagilimi-operator">
+<h3>3.2.5. Kaynak Dağılımı (Operatör)<a class="headerlink" href="#kaynak-dagilimi-operator" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="kaynak-dagilimi-urun">
+<h3>3.2.6. Kaynak Dağılımı (Ürün)<a class="headerlink" href="#kaynak-dagilimi-urun" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="kaynak-tipleri">
+<h3>3.2.7. Kaynak Tipleri<a class="headerlink" href="#kaynak-tipleri" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="durus-sureleri">
+<h3>3.2.8. Duruş Süreleri<a class="headerlink" href="#durus-sureleri" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="alarmlar">
+<h3>3.2.9. Alarmlar<a class="headerlink" href="#alarmlar" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="arc-on-time-vardiya">
+<h3>3.2.10. Arc On Time (Vardiya)<a class="headerlink" href="#arc-on-time-vardiya" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="kaynak-dagilimi-vardiya">
+<h3>3.2.11. Kaynak Dağılımı (Vardiya)<a class="headerlink" href="#kaynak-dagilimi-vardiya" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="kaynak-makinesi-hareketleri">
+<h3>3.2.12. Kaynak Makinesi Hareketleri<a class="headerlink" href="#kaynak-makinesi-hareketleri" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="kaynak-gecmisi">
+<h2>3.3. Kaynak Geçmişi<a class="headerlink" href="#kaynak-gecmisi" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="kaynak_yonetim.html" class="btn btn-neutral float-right" title="4. Kaynak Yönetimi" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="uretimplan.html" class="btn btn-neutral float-left" title="2. Üretim Planlama" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, MagNET
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-cogs" style="float:left"> Ayarlar</span>
+      
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Diller</dt>
+        
+          
+          <dd><a href="/Help/tr/main/">Türkçe</a></dd>
+          
+        
+          
+          <dd><a href="/Help/en/main/">English</a></dd>
+          
+        
+      </dl>
+      
+	   
+      <dl>
+        <dt>Dökümanlar</dt>
+        
+          
+          <dd><a href="/Help/tr/main">MagNET</a></dd>
+          
+        
+          
+          <dd><a href="/Help/magnet-sub/">MagNET-Sub</a></dd>
+          
+        
+      </dl>
+      
+      
+      
+      
+      
+ 
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="tr" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="tr" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. Üretim Planlama &mdash; helpPage 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="3. Kaynak Operasyonları" href="kaynak_operasyon.html" />
+    <link rel="prev" title="1. Üretim İzleme" href="uretim.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="uretim.html">1. Üretim İzleme</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Üretim Planlama</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#projeler">2.1. Projeler</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ara">2.1.1. Ara</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sayfalandirma">2.1.2. Sayfalandırma</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sutunlar">2.1.3. Sütunlar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#excel">2.1.4. Excel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#yeni-proje">2.1.5. Yeni Proje</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sil">2.1.6. Sil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#duzenle">2.1.7. Düzenle</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#is-emirleri">2.2. İş Emirleri</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#uretim-sayilarini-duzenle">2.2.1. Üretim Sayılarını Düzenle</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#haftalik-calisma-plani">2.3. Haftalık Çalışma Planı</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tarih">2.3.1. Tarih</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kopyala">2.3.2. Kopyala</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sifirla">2.3.3. Sıfırla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sadece-bu-hafta-kullan">2.3.4. Sadece Bu Hafta Kullan</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="kaynak_operasyon.html">3. Kaynak Operasyonları</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kaynak_yonetim.html">4. Kaynak Yönetimi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alarmlar.html">5. Alarmlar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="raporlar.html">6. Raporlar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tuketim_malzeme.html">7. Tüketim Malzemeleri</a></li>
+<li class="toctree-l1"><a class="reference internal" href="konfigurasyonlar.html">8. Konfigurasyonlar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="firma_bilgileri.html">9. Firma Bilgileri</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">helpPage</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>2. Üretim Planlama</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/uretimplan.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="uretim-planlama">
+<h1>2. Üretim Planlama<a class="headerlink" href="#uretim-planlama" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="projeler">
+<h2>2.1. Projeler<a class="headerlink" href="#projeler" title="Permalink to this headline">¶</a></h2>
+<p>Firmaya tanımlanmış olan projelerin listelendiği ekrandır. Bu ekrandan;</p>
+<ul class="simple">
+<li>proje numarasına ve</li>
+<li>projenin açıklamasına</li>
+</ul>
+<p>ulaşabilirsiniz.</p>
+<p>MagNET, ERP ile senkronize çalışır durumda ise projeler ERP’den aktarılmaktadır. Operatör
+MagNET panelinden iş emri seçimi yaptığında o iş emrinin bağlı olduğu proje bu ekrana
+otomatik olarak aktarılmaktadır.</p>
+<div class="figure align-center">
+<img alt="_images/help_2.png" src="_images/help_2.png" />
+</div>
+<p class="centered">
+<strong>Resim 8: Projeler Ekranı</strong></p><div class="section" id="ara">
+<h3>2.1.1. Ara<a class="headerlink" href="#ara" title="Permalink to this headline">¶</a></h3>
+<p>Listelenmiş olan veriler arasından anahtar kelimeler girerek arama yapabilir, sonuçları
+filtreleyebilirsiniz.</p>
+</div>
+<div class="section" id="sayfalandirma">
+<h3>2.1.2. Sayfalandırma<a class="headerlink" href="#sayfalandirma" title="Permalink to this headline">¶</a></h3>
+<p>Sayıca çok olan veriler tablolarda ekran düzenini korumak ve veri karmaşasını önlemek
+amacıyla, sayfalandırılmış bir şekilde kullanıcıya gösterilmektedir. Bu butonu kullanarak
+sayfalandırma yapısını kaldırıp verileri alt alta listeleyebilirsiniz. Ya da kaldırılmış sayfalandırma
+yapısını aktif hale getirebilirsiniz.</p>
+</div>
+<div class="section" id="sutunlar">
+<h3>2.1.3. Sütunlar<a class="headerlink" href="#sutunlar" title="Permalink to this headline">¶</a></h3>
+<p>Veriler, tablolarda sütunlar halinde listelenmektedir. Buradan görünmesini istemediğiniz
+sütunların işaretini kaldırarak gizleyebilir ya da istediğiniz sütunları tekrar işaretleyerek
+ekranda aktif hale getirebilirsiniz</p>
+</div>
+<div class="section" id="excel">
+<h3>2.1.4. Excel<a class="headerlink" href="#excel" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="yeni-proje">
+<h3>2.1.5. Yeni Proje<a class="headerlink" href="#yeni-proje" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="sil">
+<h3>2.1.6. Sil<a class="headerlink" href="#sil" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="duzenle">
+<h3>2.1.7. Düzenle<a class="headerlink" href="#duzenle" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="is-emirleri">
+<h2>2.2. İş Emirleri<a class="headerlink" href="#is-emirleri" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="uretim-sayilarini-duzenle">
+<h3>2.2.1. Üretim Sayılarını Düzenle<a class="headerlink" href="#uretim-sayilarini-duzenle" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="haftalik-calisma-plani">
+<h2>2.3. Haftalık Çalışma Planı<a class="headerlink" href="#haftalik-calisma-plani" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tarih">
+<h3>2.3.1. Tarih<a class="headerlink" href="#tarih" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="kopyala">
+<h3>2.3.2. Kopyala<a class="headerlink" href="#kopyala" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="sifirla">
+<h3>2.3.3. Sıfırla<a class="headerlink" href="#sifirla" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="sadece-bu-hafta-kullan">
+<h3>2.3.4. Sadece Bu Hafta Kullan<a class="headerlink" href="#sadece-bu-hafta-kullan" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="kaynak_operasyon.html" class="btn btn-neutral float-right" title="3. Kaynak Operasyonları" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="uretim.html" class="btn btn-neutral float-left" title="1. Üretim İzleme" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, MagNET
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-cogs" style="float:left"> Ayarlar</span>
+      
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Diller</dt>
+        
+          
+          <dd><a href="/Help/tr/main/">Türkçe</a></dd>
+          
+        
+          
+          <dd><a href="/Help/en/main/">English</a></dd>
+          
+        
+      </dl>
+      
+	   
+      <dl>
+        <dt>Dökümanlar</dt>
+        
+          
+          <dd><a href="/Help/tr/main">MagNET</a></dd>
+          
+        
+          
+          <dd><a href="/Help/magnet-sub/">MagNET-Sub</a></dd>
+          
+        
+      </dl>
+      
+      
+      
+      
+      
+ 
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
