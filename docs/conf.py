@@ -118,8 +118,8 @@ for lang in languages:
 DOCS_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(DOCS_DIR)
 
-html_context['versions'] = [('MagNET','/' +DOCS_DIR + '/_build/html/index.html')]
-html_context['versions'].append(('MagNET-Sub','/'+DOCS_DIR+'/MagNET-Sub/build/html/index.html'))
+html_context['versions'] = [('MagNET','/' +REPO_NAME + '/_build/html/index.html')]
+html_context['versions'].append(('MagNET-Sub','/'+REPO_NAME+'/MagNET-Sub/build/html/index.html'))
 
 
    
