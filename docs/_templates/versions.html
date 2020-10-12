@@ -2,7 +2,7 @@
 {# Add rst-badge after rst-versions for small badge style. #}
   <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
     <span class="rst-current-version" data-toggle="rst-current-version">
-      <span class="fa fa-book"> Settings</span>
+      <span class="fa fa-cogs" style="float:left"> {{ _('Settings') }}</span>
       
       <span class="fa fa-caret-down"></span>
     </span>
@@ -14,6 +14,16 @@
           {% if slug == current_language %} <strong> {% endif %}
           <dd><a href="{{ url }}">{{ slug }}</a></dd>
           {% if slug == current_language %} </strong> {% endif %}
+        {% endfor %}
+      </dl>
+      {% endif %}
+	   {% if documents|length >= 1 %}
+      <dl>
+        <dt>{{ _('Documents') }}</dt>
+        {% for slug, url in documents %}
+          {% if slug == current_document %} <strong> {% endif %}
+          <dd><a href="{{ url }}">{{ slug }}</a></dd>
+          {% if slug == current_document %} </strong> {% endif %}
         {% endfor %}
       </dl>
       {% endif %}

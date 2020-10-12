@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: helpPage \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-07 09:09+0300\n"
+"POT-Creation-Date: 2020-10-12 14:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
+#: ../../_templates/versions.html:5
+msgid "Settings"
+msgstr ""
+
 #: ../../_templates/versions.html:12
 msgid "Languages"
 msgstr ""
 
 #: ../../_templates/versions.html:22
-msgid "Versions"
+msgid "Documents"
 msgstr ""
 
 #: ../../_templates/versions.html:32
-msgid "Downloads"
-msgstr ""
-
-#: ../../_templates/versions.html:40
-msgid "On Read the Docs"
+msgid "Versions"
 msgstr ""
 
 #: ../../_templates/versions.html:42
+msgid "Downloads"
+msgstr ""
+
+#: ../../_templates/versions.html:50
+msgid "On Read the Docs"
+msgstr ""
+
+#: ../../_templates/versions.html:52
 msgid "Project Home"
 msgstr ""
 
-#: ../../_templates/versions.html:45
+#: ../../_templates/versions.html:55
 msgid "Builds"
 msgstr ""
 

@@ -109,17 +109,18 @@ html_context['current_language'] = current_language
  
 
 # POPULATE LINKS TO OTHER LANGUAGES
-html_context['languages'] = [ ('.', '/' +REPO_NAME+ '/tr/main/')]
+html_context['languages'] = [ ('Türkçe', '/' +REPO_NAME+ '/tr/main/')]
+html_context['languages'].append( ('English', '/' +REPO_NAME+ '/en/main/') )
  
-languages = [lang.name for lang in os.scandir('locales') if lang.is_dir()]
-for lang in languages:
-   html_context['languages'].append( (lang, '/' +REPO_NAME+ '/' +lang+ '/main/') )
+#languages = [lang.name for lang in os.scandir('locales') if lang.is_dir()]
+#for lang in languages:
+#   html_context['languages'].append( (lang, '/' +REPO_NAME+ '/' +lang+ '/main/') )
 
 DOCS_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(DOCS_DIR)
 
-html_context['versions'] = [('MagNET','/' +REPO_NAME + '/tr/main')]
-html_context['versions'].append(('MagNET-Sub','/'+REPO_NAME+'/tr/main/Magnet-Sub/source/'))
+html_context['documents'] = [('MagNET','/' +REPO_NAME + '/tr/main')]
+html_context['documents'].append(('MagNET-Sub','/'+REPO_NAME+'/magnet-sub/'))
 
 
    
