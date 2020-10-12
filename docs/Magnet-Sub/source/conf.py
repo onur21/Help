@@ -98,8 +98,8 @@ else:
 DOCS_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(DOCS_DIR)
 
-html_context['versions'] = [('MagNET','/' +REPO_NAME + '/_build/html/index.html')]
-html_context['versions'].append(('MagNET-Sub','/'+REPO_NAME+'/build/html/index.html'))
+html_context['versions'] = [('MagNET','/' +REPO_NAME + '/tr/main')]
+html_context['versions'].append(('MagNET-Sub','/'+REPO_NAME+'/tr/main/Magnet-Sub/source/'))
  
 
 
