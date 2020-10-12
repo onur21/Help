@@ -34,6 +34,7 @@ language = None
 extensions = [
     'sphinx_rtd_theme',
     'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -113,8 +114,12 @@ html_context['languages'] = [ ('.', '/' +REPO_NAME+ '/tr/main/')]
 languages = [lang.name for lang in os.scandir('locales') if lang.is_dir()]
 for lang in languages:
    html_context['languages'].append( (lang, '/' +REPO_NAME+ '/' +lang+ '/main/') )
-   
-   
-   
-   
+
+DOCS_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(DOCS_DIR)
+
+html_context['versions'] = [('MagNET','/' +DOCS_DIR + '/_build/html/index.html')]
+html_context['versions'].append(('MagNET-Sub','/'+DOCS_DIR+'/MagNET-Sub/build/html/index.html'))
+
+
    
